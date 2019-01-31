@@ -1,9 +1,27 @@
 {
-  "name": "Cm Theme",
-  "about_url": "URL",
-  "license_url": "URL",
+  "name": "CM Theme",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
   "assets": {
   },
   "color_schemes": {
-  }
+    "CM": {
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "57dbe7",
+      "quaternary": "57dbe7",
+      "header_background": "ffffff",
+      "header_primary": "2f2f2f",
+      "highlight": "fae299",
+      "danger": "F55E62",
+      "success": "57dbe7",
+      "love": "F55E62"
+    }
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
