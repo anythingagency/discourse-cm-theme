@@ -1,0 +1,107 @@
+// ========================================
+// Categories
+// ========================================
+
+.categories-list .category-list {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.category-list-item {
+  border: none;
+
+  .category-description {
+    display: block !important;
+    
+    td {
+      color: #fff;
+    }
+  }
+
+  .topic-list {
+    display: block;
+
+    tr {
+      &:nth-child(1) {
+        display: block;
+        width:100%;
+        background-position: bottom right;
+
+        .main-link {
+          max-width: none;
+          padding: $category-title-padding;
+
+          h3 {
+            max-width: 100%;
+            display: inline-block;
+            font-size: $category-title-font-size;
+            padding: 0;
+            margin-bottom: 0;
+
+            a {
+              color: $color-white;
+
+              // Chevron right icon on mobile category header
+              &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translate(100%, -50%);
+                width: 14px;
+                height: 14px;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 444.819 444.819'%3E%3Cpath d='M352.025 196.712L165.884 10.848C159.029 3.615 150.469 0 140.187 0s-18.842 3.619-25.697 10.848L92.792 32.264c-7.044 7.043-10.566 15.604-10.566 25.692 0 9.897 3.521 18.56 10.566 25.981L231.545 222.41 92.786 361.168c-7.042 7.043-10.564 15.604-10.564 25.693 0 9.896 3.521 18.562 10.564 25.98l21.7 21.413c7.043 7.043 15.612 10.564 25.697 10.564 10.089 0 18.656-3.521 25.697-10.564L352.025 248.39c7.046-7.423 10.571-16.084 10.571-25.981.001-10.088-3.525-18.654-10.571-25.697z' fill='%23fff'/%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .posts {
+      width: auto;
+      font-size: $category-posts-font-size;
+    }
+
+    .category-topic-link {
+      display: flex;
+      justify-content: space-between;
+
+      .main-link .topic-inset a {
+        font-size: $category-topic-font-size;
+        font-family: $font-secondary;
+        color: $color-black;
+      }
+    }
+  }
+}
+
+// Category background images
+// - 9 images in total
+@for $i from 1 through 9 {
+  .category-list-item:nth-child(9n + #{$i}) {
+    tr {
+      &:nth-child(1) {
+        background-image: url("#{$asset-path-images}decor-#{$i}-sm.png");
+      }
+    }
+  }
+}
+
+// Mobile category footer
+//
+.category-list-item-footer {
+  display: flex;
+  justify-content: flex-start;
+
+  a {
+    // More button
+    &:first-child {
+      color: #ffffff !important;
+    }
+
+    flex: 1 0 0;
+  }
+}

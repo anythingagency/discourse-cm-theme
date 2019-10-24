@@ -1,0 +1,36 @@
+// ========================================
+// Topics
+// ========================================
+
+.topic-post nav.post-controls .show-replies {
+  max-width: none;
+  display: inline-block;
+}
+
+.show-replies .d-button-label {
+  padding-right: 5px;
+}
+
+.topic-footer-main-buttons {
+  justify-content: space-between;
+}
+
+.topic-post nav.post-controls button.reply {
+
+  background: $color-a-primary;
+  border-radius: 20px;
+  padding: 5px 10px;
+  flex: 1;
+  max-width: 60px;
+  align-self: center;  
+
+  .d-icon {
+    display: none;
+  }
+
+  .d-button-label {
+    color: #fff;
+    font-size: .875rem;
+    font-family: "Gilroy",sans-serif;
+  }
+}

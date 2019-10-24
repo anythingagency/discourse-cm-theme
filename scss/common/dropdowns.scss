@@ -1,0 +1,124 @@
+// ========================================
+// Dropdowns
+// ========================================
+
+.list-controls {
+  margin: $spacer 0 0 0;
+}
+
+.list-controls .combo-box .combo-box-header {
+  border-radius: $input-border-radius;
+  border-radius: $input-border-radius;
+  border-width: $input-border-width;
+  border-color: $input-border-color;
+  border-style: solid;
+  padding-top: $spacer/4;
+  padding-bottom: $spacer/4;
+  height: auto;
+}
+
+.list-controls .nav-pills > li {
+  .toggle-link {
+    font-family: $font-secondary;
+    font-weight: bold;
+  }
+}
+
+.select-kit.combo-box .select-kit-header {
+  border-radius: $input-border-radius;
+  border-radius: $input-border-radius;
+  border-width: $input-border-width;
+  border-color: $input-border-color;
+  border-style: solid;
+  padding-top: $spacer/4;
+  padding-bottom: $spacer/4;
+}
+
+.top-lists .select-kit.single-select.dropdown-select-box {
+  border-radius: $input-border-radius;
+  border-radius: $input-border-radius;
+  border-width: $input-border-width;
+  border-color: $input-border-color;
+  border-style: solid;
+
+  .btn {
+    border-radius: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    .selected-name {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      margin-left: 0 !important;
+    }
+
+    .svg-icon {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .select-kit-body {
+    border-radius: $input-border-radius;
+    border-radius: $input-border-radius;
+    border-width: $input-border-width;
+    border-color: $input-border-color;
+    border-style: solid;
+
+    .select-kit-collection {
+      background: none;
+    }
+  }
+}
+
+.select-kit.multi-select .multi-select-header, .select-kit.combo-box .select-kit-body {
+  border-radius: $input-border-radius;
+  border-radius: $input-border-radius;
+  border-width: $input-border-width;
+  border-color: $input-border-color;
+  border-style: solid;
+}
+
+.select-kit.combo-box .select-kit-header .selected-name {
+  font-family: $font-secondary;
+  font-weight: bold;
+}
+
+.select-kit .select-kit-row.is-selected {
+  background: $color-a-secondary;
+}
+
+.select-kit .select-kit-row.is-highlighted {
+  background: $color-a-tertiary;
+}
+
+// Category dropdown
+
+.category-drop-header {
+  .badge-wrapper {
+    .category-name {
+      color: $color-black;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .badge-category-bg {
+      display: none;
+    }
+  }
+}
+
+.category-status {
+  .topic-count {
+    color: $color-a-primary;
+  }
+  .badge-wrapper {
+    .badge-category-bg {
+      display: none;
+    }
+  }
+}
+
+.select-kit.combo-box.category-drop .select-kit-row .badge-wrapper {
+  font-weight: normal;
+}

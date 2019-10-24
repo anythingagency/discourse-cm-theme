@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+html {
+  font-family: 'Work Sans', sans-serif;
+  color: #2f2f2f;
+  font-size: 14px;
+}
+
+article, header.discourse, footer {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+a {
+  color: #57dbe7;;  
+}
+
+.username a {
+  color: #000;
+}
+
+footer {
+  padding: 0 1rem 1rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .button, footer .button {
+  background-color: $tertiary;
+  border-radius: 20px;
+  font-family: sans-serif;
+  padding: 5px 15px;
+  color: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.replies {
+    font-size: .9em;
+}
+
+.post-replies.button, .in-reply-to {
+    color: #b3b3b3 !important;
+}
+
+.logo {
+    display: none;
+}

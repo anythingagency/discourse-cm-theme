@@ -1,0 +1,41 @@
+// ========================================
+// Styles
+// ========================================
+
+body {
+  //background-color: #f7f7f7;
+}
+
+#main-outlet {
+  background-color: #ffffff;
+  max-width: 68.375rem !important;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+// Hide site statistics (about)
+//
+.about.stats {
+  display: none;
+}
+
+// Crawler header
+//
+body:not(.crawler) {
+    #cm-crawler-header {
+        display: none;
+    }
+}
+
+body.crawler>header {
+  position: unset;
+}
