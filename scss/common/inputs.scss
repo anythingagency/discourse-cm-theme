@@ -1,0 +1,44 @@
+// ========================================
+// Inputs
+// ========================================
+
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+  border-radius: $input-border-radius;
+  border-width: $input-border-width;
+  border-color: $input-border-color;
+  border-style: solid;
+  padding-top: $spacer/4;
+  padding-bottom: $spacer/4;
+}
+
+.ac-wrap {
+  border-radius: $input-border-radius !important;
+  border-width: $input-border-width !important;
+  border-color: $input-border-color !important;
+  border-style: solid !important;
+}
+
+.ember-text-area {
+  border-radius: $input-border-radius;
+  border-radius: $input-border-radius;
+  border-width: $input-border-width;
+  border-color: $input-border-color;
+  border-style: solid;
+  padding-top: $spacer/4;
+  padding-bottom: $spacer/4;
+}
+
+.d-editor-textarea-wrapper .ember-text-area {
+  border-radius: 0;
+  border: none;
+  padding-top: $spacer/4;
+  padding-bottom: $spacer/4;
+}
+
+.d-editor-textarea-wrapper {
+  border-radius: $input-border-radius;
+  border-radius: $input-border-radius;
+  border-width: $input-border-width;
+  border-color: $input-border-color;
+  border-style: solid;
+}
