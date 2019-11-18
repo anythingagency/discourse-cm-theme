@@ -14,11 +14,18 @@
   }
 }
 
+
 .nav-pills > li > a {
   border-radius: $btn-border-radius;
   font-size: $btn-font-size;
   font-family: $btn-font-family;
   padding: $btn-padding;
+
+  &.active {
+    &:hover {
+      background: $color-a-primary !important;
+    }
+  }
 }
 
 button#create-topic span {
