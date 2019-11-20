@@ -27,6 +27,7 @@
 
   &.active {
     &:hover {
+      color: #fff !important;
       background: $color-a-primary !important;
     }
   }
