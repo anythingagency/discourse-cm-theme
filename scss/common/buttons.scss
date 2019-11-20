@@ -21,6 +21,10 @@
   font-family: $btn-font-family;
   padding: $btn-padding;
 
+  &:hover {
+    color: $color-black !important;
+  }
+
   &.active {
     &:hover {
       background: $color-a-primary !important;
