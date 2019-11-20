@@ -34,6 +34,15 @@
 .docked .d-header {
   margin: 0px !important;
 
+  background-color: $color-a-primary;
+
+  #site-text-logo, .d-icon,
+  .extra-info-wrapper .topic-link,
+  .categories-wrapper .category-name {
+    color: #fff;
+  }
+
+  
 
   // Topic title and back button
   // .extra-info-wrapper {
