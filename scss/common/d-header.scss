@@ -36,7 +36,8 @@
 
   background-color: $color-a-primary;
 
-  #site-text-logo, .d-icon,
+  #site-text-logo, 
+  .header-dropdown-toggle .d-icon,
   .extra-info-wrapper .topic-link,
   .extra-info-wrapper .topic-header-extra .discourse-tags .discourse-tag,
   .categories-wrapper .category-name {
