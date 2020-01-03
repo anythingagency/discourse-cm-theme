@@ -2,6 +2,25 @@
   .btn.link, .btn.quote, .btn.code, .btn.local-dates {
     display: none !important;
   }
+  
+  .dropdown-select-box {
+    background: #e6e6e6;
+
+    .btn-default {
+      background-color: transparent !important;
+    }
+
+    &.is-focused {
+
+      background-color: $color-grey !important;
+      .d-icon-cog {
+        color: #fff !important;
+      }
+    }
+
+ 
+  }
+  
 }
 
 #reply-control .submit-panel .mobile-file-upload {
